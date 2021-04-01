@@ -1,6 +1,7 @@
 .MainTitleStyle {
     color: black;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .CenteredImage {
@@ -8,5 +9,5 @@
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-    height: 400px;
+    height: 300px;
 }
