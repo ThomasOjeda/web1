@@ -29,6 +29,10 @@
     color: #727B9D;
 }
 
+.ContentStyle {
+    text-justify: newspaper;
+}
+
 @font-face {
     font-family: 'HeadlineFont'; /*a name to be used later*/
     src: url('Chunk.ttf'); /*URL to font*/
