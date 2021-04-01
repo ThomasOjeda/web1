@@ -1,7 +1,13 @@
+.BodyStyle {
+    background-color: #95A8EE;
+}
+
 .MainTitleStyle {
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-align: center;
+    font-family: 'HeadlineFont';
+
 }
 
 .CenteredImage {
@@ -10,4 +16,20 @@
     margin-right: auto;
     width: 300px;
     height: 300px;
+}
+
+.SubtitleStyle {
+    text-align: center;
+    color: #494A50;
+    font-size: medium;
+}
+
+.TitleStyle {
+    text-align: center;
+    color: #727B9D;
+}
+
+@font-face {
+    font-family: 'HeadlineFont'; /*a name to be used later*/
+    src: url('Chunk.ttf'); /*URL to font*/
 }
