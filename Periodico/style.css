@@ -1,0 +1,25 @@
+h1 {
+    color: maroon;
+    font-size: xx-large;
+}
+
+p {
+    color: red;
+    background-image: url(pepe.png);
+
+    font-size : 56;
+}
+
+.laclasedelospibs{
+    color : greenyellow;
+
+}
+
+.clasedelbody {
+        background-color: coral;
+}
+
+ul {
+    color: blue;
+
+}
