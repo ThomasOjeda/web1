@@ -1,0 +1,37 @@
+.derecho {
+    border: solid black;
+    margin: 1%;
+    background-color: yellow;
+}
+
+.izquierdo {
+    border: solid black;
+    margin: 1%;
+    background-color: yellowgreen;
+}
+
+.middle {
+    display: flex;
+    background-color: indianred;
+    border: solid black;
+    margin: 1%;
+}
+
+.header {
+    background-color: salmon;
+    border: solid black;
+    margin: 1%;
+}
+
+.footer {
+    background-color: skyblue;
+    border: solid black;
+    margin: 1%;
+}
+
+.background {
+    background-color: white;
+}
+
+.FormattedParagraph {
+}

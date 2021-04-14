@@ -27,6 +27,9 @@
 .TitleStyle {
     text-align: center;
     color: #727B9D;
+
+    
+    border: 300px;
 }
 
 .ContentStyle {
@@ -36,4 +39,18 @@
 @font-face {
     font-family: 'HeadlineFont'; /*a name to be used later*/
     src: url('fuentes/Chunk.ttf'); /*URL to font*/
+}
+
+.Layout {
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+
+}
+
+.AdjustedMargin {
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    background-color: brown;
 }
