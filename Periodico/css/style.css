@@ -5,9 +5,68 @@
 .MainTitleStyle {
     color: white;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     font-family: 'HeadlineFont';
 
+}
+
+.Header {
+
+}
+
+.HorizontalList {
+    display: flex;
+    list-style: none;
+}
+
+.HorizontalListItem {
+    margin-left: 10px;
+}
+
+.PageMiddle {
+    display: flex;
+    background-color: darkorchid;
+    justify-content: space-between;
+
+}
+
+.SingleNews {
+    
+    background-color: darkred;
+    margin: 2%;
+    width: 45%;
+}
+
+.SingleAd {
+    
+    background-color: darkseagreen;
+    justify-content: start;
+    height: 100px;
+}
+
+.NewsSection {
+    display: flex;
+    background-color: darkorange;
+    width: 75%;
+    flex-wrap: wrap; /* para que cuando no haya espacio para todo el contenido este  */
+    justify-content: center;
+    margin: 3px;
+    height: max-content; /* esto es para que cuando se agreguen mas ads los contenidos de las news section no se estiren para 
+    coincidir con la altura de la parte de ads*/
+}
+
+.AdsSection {
+    background-color: darkolivegreen;
+   width: 25%;
+    margin: 3px;
+}
+
+.Footer {
+    display: flex;
+}
+
+.FooterElement {
+    font-style: italic;
 }
 
 .CenteredImage {
@@ -54,3 +113,4 @@
     padding: 10px;
     background-color: brown;
 }
+
