@@ -31,17 +31,42 @@
 }
 
 .SingleNews {
-    
     background-color: darkred;
     margin: 2%;
     width: 45%;
 }
 
+.SingleNewsContent {
+    text-align: center;
+}
+
+.NewsImage {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AdsImage {
+    height: 200px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NewsTitle {
+    text-align: center;
+}
+
+.NewsPreview {
+    text-align: center;
+}
+
 .SingleAd {
-    
     background-color: darkseagreen;
-    justify-content: start;
-    height: 100px;
+    height: 200px;
 }
 
 .NewsSection {
@@ -59,6 +84,8 @@
     background-color: darkolivegreen;
    width: 25%;
     margin: 3px;
+    justify-content: start;
+
 }
 
 .Footer {
